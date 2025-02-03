@@ -1,0 +1,7 @@
+aws:
+  region: "us-east-1"
+  deployment: {}
+ai_services:
+  nlp_model:
+    service: "Amazon Lex"   # Default AWS native service (can be updated later)
+    version: "default"
