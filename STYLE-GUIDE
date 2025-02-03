@@ -1,0 +1,50 @@
+# Project Style Guide
+
+This style guide provides guidelines and best practices to ensure consistency and readability across the project. Please follow these standards when contributing.
+
+## Table of Contents
+- [Code Formatting](#code-formatting)
+- [Commit Messages](#commit-messages)
+- [Branch Naming](#branch-naming)
+- [Documentation](#documentation)
+- [Testing](#testing)
+- [Pull Requests](#pull-requests)
+
+## Code Formatting
+- Use spaces instead of tabs (2 or 4 spaces, depending on the language convention).
+- Keep line length under 80-100 characters where possible.
+- Use meaningful variable and function names.
+- Maintain consistent indentation and spacing.
+- Run the linter before submitting code changes.
+
+## Commit Messages
+- Use imperative tone, e.g., "Fix bug in authentication module."
+- Keep messages concise but informative.
+- Reference issue numbers when applicable (e.g., "Fix #42 - Improve login error handling.").
+
+## Branch Naming
+- Use descriptive branch names following the format:
+  - `feature/short-description`
+  - `bugfix/short-description`
+  - `hotfix/short-description`
+  - `docs/update-readme`
+- Avoid generic names like `dev` or `test`.
+
+## Documentation
+- Update relevant documentation for new features and changes.
+- Use Markdown for README and CONTRIBUTING files.
+- Follow consistent headers and bullet formatting.
+
+## Testing
+- Write unit tests for new functionality.
+- Ensure all tests pass before submitting a pull request.
+- Use meaningful test descriptions and assertions.
+
+## Pull Requests
+- Keep PRs focused on a single feature or fix.
+- Write a clear PR description explaining changes.
+- Request reviews from relevant team members.
+- Resolve merge conflicts before submitting.
+
+By following this style guide, we can maintain high-quality contributions and improve project maintainability. Thank you for your efforts!
+
