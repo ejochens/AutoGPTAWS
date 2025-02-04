@@ -1,0 +1,32 @@
+version: "3.8"
+
+services:
+  api-server:
+    build: ./docker/api-server
+    ports:
+      - "5000:5000"
+    depends_on:
+      - autogptaws-core
+      - sandbox
+    environment:
+      - FLASK_ENV=development
+
+  autogptaws-core:
+    build: ./docker/autogptaws-core
+    depends_on:
+      - sandbox
+
+  sandbox:
+    build: ./docker/sandbox
+    security_opt:
+      - no-new-privileges:true
+    read_only: true
+    tmpfs:
+      - /tmp
+
+  dev-environment:
+    build: ./docker/dev-environment
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/workspace

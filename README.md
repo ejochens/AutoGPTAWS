@@ -67,15 +67,8 @@ Our journey with **AutoGPTAWS** begins small and agile:
     - AWS region and deployment settings
     - Default AWS AI services (using cost-effective, built-in models)
 You can modify this file later to experiment with different models.
-3. **Run the MVP Interface:** Start our minimal interface (command-line or a basic Flask web app) to enter your natural language prompt:
-```python
-python run.py
-```
-For example, input:
-
-"Create a function that returns the sum of two numbers."
-
-The system will generate the corresponding Python code and display it for your review.
+3. **Follow the Docker Setup:** 
+[DOCKER_SETUP](DOCKER_SETUP.md)
 4. **Sandbox Testing:** The platform automatically runs unit tests in a Docker-based sandbox (e.g., verifying that add(2, 3) == 5). Test results will be displayed in the interface.
 
 5. **Next Steps:** Explore the code, review our documentation, and start contributing ideas for new features or improvements.
