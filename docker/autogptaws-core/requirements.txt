@@ -1,4 +1,5 @@
-boto3
-PyYAML
-flask
-docker
+boto3         # AWS SDK
+PyYAML        # Configuration file handling
+openai        # GPT-based AI (we may switch to AWS Bedrock later)
+docker        # Interacting with Docker sandbox
+flask         # (Optional) If we want a lightweight API

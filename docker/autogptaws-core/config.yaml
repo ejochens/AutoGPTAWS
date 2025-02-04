@@ -1,0 +1,6 @@
+aws:
+  region: "us-east-1"
+  ai_service:
+    nlp_model: "Amazon Bedrock"  # AWS Native AI (default)
+  execution:
+    sandbox: "docker"  # Use Docker for isolated execution
